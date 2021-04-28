@@ -1,0 +1,1 @@
+Changement du code pour une compatibilité avec le Script Skin Info Service version 1.0.10[CR] Ce Script doit être mis à jour dans mon repo ou via mon lien Drive.
