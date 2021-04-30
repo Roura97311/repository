@@ -313,7 +313,7 @@ Mise en place d'une tempo d'affichage du Menu Home.
 		<source>-</source>
 		<news>ATTENTION PAS COMPATIBLE AVEC MIRO INFERIEUR A 6.0.67</news>
 	</extension>
-</addon><addon id="script.grab.fanart" name="Grab Fanart" provider-name="robweber" version="0.15.8">
+</addon><addon id="script.grab.fanart" name="Grab Fanart Matrix" provider-name="robweber" version="0.15.9">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.kodi-six" version="0.1.3.1" />
@@ -330,9 +330,7 @@ Mise en place d'une tempo d'affichage du Menu Home.
     <license>MIT</license>
     <platform>all</platform>
     <language>en</language>
-    <news>Version 0.15.8
-- code styling changes Python 3
-    </news>
+    <news>Version 0.15.9 - code styling changes Python 3[CR][COLOR FFFF9800]VERSION MATRIX[/COLOR]</news>
     <assets>
     	<icon>resources/media/icon.png</icon>
     </assets>

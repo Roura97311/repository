@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.grab.fanart"
-    name="Grab Fanart" version="0.15.8" provider-name="robweber">
+    name="Grab Fanart Matrix" version="0.15.9" provider-name="robweber">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.kodi-six" version="0.1.3.1" />
@@ -17,9 +17,7 @@
     <license>MIT</license>
     <platform>all</platform>
     <language>en</language>
-    <news>Version 0.15.8
-- code styling changes Python 3
-    </news>
+    <news>Version 0.15.9 - code styling changes Python 3[CR][COLOR FFFF9800]VERSION MATRIX[/COLOR]</news>
     <assets>
     	<icon>resources/media/icon.png</icon>
     </assets>
