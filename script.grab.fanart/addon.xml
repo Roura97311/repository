@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.grab.fanart"
-    name="Grab Fanart Matrix" version="0.16.1" provider-name="robweber-Telex">
+    name="Grab Fanart Matrix" version="0.16.2" provider-name="robweber-Telex">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.kodi-six" version="0.1.3.1" />
@@ -10,14 +10,14 @@
   <extension point="xbmc.service" library="service.py"  />
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Exposes fanart as skin properties for slideshows, etc</summary>
-    <description lang="en_GB">Version 0.15.5 - code styling changes Python 3[CR][COLOR FFFF9800]VERSION MATRIX[/COLOR][CR]</description>
+    <description lang="en_GB">Version 0.16.2 - code styling changes Python 3[CR][COLOR FFFF9800]VERSION MATRIX[/COLOR][CR]</description>
     <forum>https://forum.kodi.tv/showthread.php?tid=166572</forum>
     <source>https://github.com/robweber/script.grab.fanart</source>
 	<website>https://github.com/robweber/script.grab.fanart</website>
     <license>MIT</license>
     <platform>all</platform>
     <language>en</language>
-    <news>Version 0.16.1 - code styling changes Python 3[CR][COLOR FFFF9800]VERSION MATRIX[/COLOR]</news>
+    <news>Version 0.16.2 - code styling changes Python 3[CR][COLOR FFFF9800]VERSION MATRIX[/COLOR]</news>
     <assets>
     	<icon>resources/media/icon.png</icon>
     </assets>
