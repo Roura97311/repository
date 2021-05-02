@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<addon id="script.aeon.miro.nox.5" name="script.aeon.miro.nox" version="1.0.5" provider-name="roura97311">
+	<addon id="script.aeon.miro.nox.5" name="Script.Aeon.Miro.Nox Krypton" version="1.0.7" provider-name="roura97311">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="xbmc.addon" version="16.0.0"/>
