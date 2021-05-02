@@ -412,7 +412,7 @@ NOM DU FILM dvd.disc
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon><addon id="script.aeon.miro.nox.8" name="Script.Aeon.Miro.Nox Leia/Matrix" provider-name="roura97311" version="1.0.12">
+</addon><addon id="script.aeon.miro.nox" name="Script.Aeon.Miro.Nox Leia/Matrix" provider-name="roura97311" version="1.0.13">
 	<requires>
 	  <dir maxversion="18.9.0">
 		<import addon="xbmc.python" version="2.24.0" />
