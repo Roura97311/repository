@@ -172,7 +172,9 @@
 		<platform>all</platform>
 		<news>
 Version 7.0.42		
-Ajout des infos 4k en vue liste[CR]En cours les logos HDR mais il faudra renommer vos films en conséquence...	
+Script.Aeon.Miro.Nox version 1.0.14 obligatoire.Merci Telexx
+logos HDR disponible. Nommage du film: (nom_du_film HDR.xxx)
+Ajout des infos 4k en vue liste[CR]
 	
 Version 7.0.41
 Correction de la vue vitrine
@@ -186,13 +188,8 @@ Allégement du fichier textures.xbt
 		<email>big.noid@kodi.tv</email>
 		<source>https://github.com/BigNoid/Aeon-Nox</source>
 		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot000.jpg</screenshot>
-			<screenshot>resources/screenshot001.jpg</screenshot>
-			<screenshot>resources/screenshot002.jpg</screenshot>
-			<screenshot>resources/screenshot003.jpg</screenshot>
-			<screenshot>resources/screenshot004.jpg</screenshot>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
 </addon><addon id="skin.aeon.miro.nox.matrix" name="Aeon Miro Nox matrix" provider-name="Roura97311" version="8.0.6">
