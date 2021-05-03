@@ -312,11 +312,13 @@ NOM DU FILM dvd.disc
 		<source>-</source>
 		<news>ATTENTION PAS COMPATIBLE AVEC MIRO INFERIEUR A 6.0.67</news>
 	</extension>
-</addon><addon id="script.grab.fanart" name="Grab Fanart Matrix" provider-name="robweber-Telex" version="0.16.2">
+</addon><addon id="script.grab.fanart" name="Grab Fanart Matrix" provider-name="robweber-Telex" version="0.16.3">
   <requires>
+	<dir maxversion="18.9.700">
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.kodi-six" version="0.1.3.1" />
 	<import addon="script.module.future" version="0.17.1+matrix.2" />
+	</dir>
   </requires>
   <extension library="default.py" point="xbmc.python.library" />
   <extension library="service.py" point="xbmc.service" />
@@ -329,9 +331,9 @@ NOM DU FILM dvd.disc
     <license>MIT</license>
     <platform>all</platform>
     <language>en</language>
-    <news>Version 0.16.2 - code styling changes Python 3[CR][COLOR FFFF9800]VERSION MATRIX[/COLOR]</news>
+    <news>Version 0.16.3 - code styling changes Python 3[CR][COLOR FFFF9800]VERSION MATRIX[/COLOR]</news>
     <assets>
-    	<icon>resources/media/icon.png</icon>
+    	<icon>icon.png</icon>
     </assets>
   </extension>
 </addon><addon id="repository.aeon.miro.nox" name="Aeon Miro Nox Repo Thanks Telexxingou ;-)" provider-name="Roura97311" version="1.0.7">
