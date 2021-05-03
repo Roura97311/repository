@@ -1,0 +1,1 @@
+[I][COLOR FFFF9800]Version 7.0.42[/COLOR][/I][CR][COLOR FFFF9800]Script.Aeon.Miro.Nox version 1.0.14 obligatoire[/COLOR][CR]Merci Telexx[CR]logos HDR disponible[CR]Nommage du film: (nom_du_film HDR.xxx)[CR]Ajout des infos 4k en vue liste[CR]
