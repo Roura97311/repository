@@ -355,64 +355,7 @@ NOM DU FILM dvd.disc
 			<fanart>fanart.jpg</fanart>
 		</assets>
 		</extension>
-	</addon><addon id="script.aeon.miro.nox.5" name="Script.Aeon.Miro.Nox Krypton" provider-name="roura97311" version="1.0.7">
-	<requires>
-		<import addon="xbmc.python" version="2.24.0" />
-		<import addon="xbmc.addon" version="16.0.0" />
-		
-		
-	</requires>
-    
-  <extension library="plugin.py" point="xbmc.python.script">
-		<provides>executable</provides>
-	</extension>
-   <extension library="plugin.py" point="xbmc.python.pluginsource" />
-   <extension library="service.py" point="xbmc.service" start="login" />	
-
-	
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">script.aeonmironox</summary>
-        <summary lang="en">tools for AeonMiroNox skin</summary>
-        <description>provides some tools functions for my AeonMiroNox skin</description>
-		<language />
-		<platform>all</platform>
-		<license>GPL v2.0</license>
-		<forum />
-		<website />
-		<source>-</source>
-		
-	</extension>
-</addon><addon id="script.aeon.miro.nox.8" name="Script.aeon.miro.nox Matrix" provider-name="roura97311" version="1.0.11">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0" />
-		<import addon="xbmc.addon" version="16.0.0" />
-		
-		
-	</requires>
-    
-  <extension library="plugin.py" point="xbmc.python.script">
-		<provides>executable</provides>
-	</extension>
-   <extension library="plugin.py" point="xbmc.python.pluginsource" />
-   <extension library="service.py" point="xbmc.service" start="login" />	
-
-	
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">script.aeonmironox</summary>
-        <summary lang="en">tools for AeonMiroNox skin</summary>
-        <description>Ajout de fonctions au Skin Aeon.Miro.Nox[CR][COLOR FFFF9800]VERSION MATRIX[/COLOR][CR]Skin.Info.Service.plus nécessaire...</description>
-		<language />
-		<platform>all</platform>
-		<license>GPL v2.0</license>
-		<forum />
-		<website />
-		<source>-</source>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon><addon id="script.aeon.miro.nox" name="Script.Aeon.Miro.Nox Leia/Matrix" provider-name="roura97311" version="1.0.14">
+	</addon><addon id="script.aeon.miro.nox" name="Script.Aeon.Miro.Nox Leia/Matrix" provider-name="roura97311" version="1.0.14">
 	<requires>
 	  <dir maxversion="18.9.0">
 		<import addon="xbmc.python" version="2.24.0" />
