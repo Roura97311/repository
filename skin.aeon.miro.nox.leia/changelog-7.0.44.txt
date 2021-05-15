@@ -1,0 +1,1 @@
+[I][COLOR FFFF9800]Version 7.0.44[/COLOR][/I][CR][COLOR FFFF9800]Script.Aeon.Miro.Nox version 1.0.14 obligatoire[/COLOR][CR]Merci Telexx[CR]Correction lié aux drapeaux HDR en vue plein écran[CR]Refonte des drapeaux info film en noir et blanc pour coller avec ceux en couleur.
