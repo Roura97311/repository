@@ -1,0 +1,1 @@
+[I][COLOR FFFF9800]Version 8.0.8 Finale[/COLOR][/I][CR]Script Aeon Miro Nox revue - Script.Skin.Info.Service plus nécéssaire ;-)[CR][COLOR FFFF9800]Script.Aeon.Miro.Nox version 1.0.14 obligatoire[/COLOR][CR]Merci Telexx[CR]Correction lié aux drapeaux HDR en vue plein écran[CR]Refonte des drapeaux info film en noir et blanc pour coller avec ceux en couleur.
