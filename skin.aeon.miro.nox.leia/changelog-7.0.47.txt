@@ -1,0 +1,1 @@
+[I][COLOR FFFF9800]Version 7.0.47[/COLOR][/I][CR][COLOR FFFF9800]Script.Aeon.Miro.Nox version 1.0.14 obligatoire[/COLOR][CR]Merci Telexx[CR]Ajout des drapeaux HDR10+ dans les différentes vues.[CR]Le nommage ce fait sur le nom de fichier HDR ou HDR10+.[CR]Correction de mon code, suppression des variables inutiles.
