@@ -1,0 +1,1 @@
+[I][COLOR FFFF9800]Version 7.0.46[/COLOR][/I][CR][COLOR FFFF9800]Script.Aeon.Miro.Nox version 1.0.14 obligatoire[/COLOR][CR]Merci Telexx[CR]Correction des flags HDR10, HDR10+ ajout du Dolby Vision[CR]Modification du fichier textures.xbt pour être conforme avec les drapeaux ci-dessus.
