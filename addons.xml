@@ -374,4 +374,14 @@ Refonte des drapeaux info film en noir et blanc pour coller avec ceux en couleur
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
+</addon><addon id="resource.images.miro.nox.leia" name="Boitiers Genre et textures Miro" provider-name="Roura97311" version="0.0.10">
+	<extension compile="true" point="kodi.resource.images" type="studios" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="fr">Boitiers Genre et textures Miro</summary>
+		<description lang="fr">Boitiers Genre et textures Miro</description>
+		<platform>all</platform>
+	</extension>
 </addon></addons>
