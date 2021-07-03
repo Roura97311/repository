@@ -95,7 +95,7 @@
 			<screenshot>resources/screenshot007.jpg</screenshot>
 		</assets>
 	</extension>
-</addon><addon id="skin.aeon.miro.nox.leia" name="Aeon Miro Nox leia" provider-name="Roura97311" version="7.0.46">
+</addon><addon id="skin.aeon.miro.nox.leia" name="Aeon Miro Nox leia" provider-name="Roura97311" version="7.0.47">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="script.grab.fanart" version="0.15.1" />
@@ -110,36 +110,36 @@
 		<res aspect="21:9" default="false" folder="1080i" height="1080" width="2560" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="de">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="el">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="en_GB">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="en_AU">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="en_NZ">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="en_US">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="es">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="fi">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="fr">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="fr_CA">Aeon Miro Nox 7.0.46 </summary>
-		<summary lang="gl">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="he">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="hu">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="is">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="it">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="ko">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="lt">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="ms">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="nl">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="no">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="pl">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="pt">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="pt_BR">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="ro">Aeon Miro Nox 7.0.46: Reproiectat</summary>
-		<summary lang="ru">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="sk">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="sv">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="th">Aeon Miro Nox 7.0.46</summary>
-		<summary lang="vi">Aeon Miro Nox 7.0.46 - Sự trở về</summary>
-		<summary lang="zh">Aeon Miro Nox 7.0.46</summary>
+		<summary lang="de">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="el">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="en_GB">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="en_AU">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="en_NZ">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="en_US">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="es">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="fi">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="fr">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="fr_CA">Aeon Miro Nox 7.0.47 </summary>
+		<summary lang="gl">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="he">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="hu">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="is">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="it">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="ko">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="lt">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="ms">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="nl">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="no">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="pl">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="pt">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="pt_BR">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="ro">Aeon Miro Nox 7.0.47: Reproiectat</summary>
+		<summary lang="ru">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="sk">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="sv">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="th">Aeon Miro Nox 7.0.47</summary>
+		<summary lang="vi">Aeon Miro Nox 7.0.47 - Sự trở về</summary>
+		<summary lang="zh">Aeon Miro Nox 7.0.47</summary>
 		<description lang="de">Redux: Komplett neu designed für ein modernes Aussehen und das klassische Aeon-Feeling beizubehalten.</description>
 		<description lang="el">Redux: Πλήρως επανασχεδιασμένο για να προσφέρει μια μοντέρνα αισθητική, διατηρώντας ταυτόχρονα την κλασική ομορφιά του Aeon.</description>
 		<description lang="en_GB">Redux: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
@@ -148,8 +148,8 @@
 		<description lang="en_US">Redux: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
 		<description lang="es">Redux: Completamente rediseñado para crear un aspecto moderno, pero conservando el toque clásico Aeon.</description>
 		<description lang="fi">Redux: Täysin uudelleensuunniteltu moderni ulkoasu, kuitenkin tuntuen klassiselta Aeon:lta.</description>
-		<description lang="fr">[I][COLOR FFFF9800]Version 7.0.46[/COLOR][/I][CR][COLOR FFFF9800]Script.Aeon.Miro.Nox version 1.0.14 obligatoire[/COLOR][CR]Merci Telexx[CR]Correction des flags HDR10, HDR10+ ajout du Dolby Vision[CR]Modification du fichier textures.xbt pour être conforme avec les drapeaux ci-dessus.</description>
-		<description lang="fr_CA">[I][COLOR FFFF9800]Version 7.0.46[/COLOR][/I][CR][COLOR FFFF9800]Script.Aeon.Miro.Nox version 1.0.14 obligatoire[/COLOR][CR]Merci Telexx[CR]Correction des flags HDR10, HDR10+ ajout du Dolby Vision[CR]Modification du fichier textures.xbt pour être conforme avec les drapeaux ci-dessus.</description>
+		<description lang="fr">[I][COLOR FFFF9800]Version 7.0.47[/COLOR][/I][CR][COLOR FFFF9800]Script.Aeon.Miro.Nox version 1.0.14 obligatoire[/COLOR][CR]Correction du fichier DialogInfoVideo.xml concernant les drapeaux HDR.[CR]Retour en arrière provisoire concernant la gestion des acteurs.[CR]Dossiers texture et genre de Miro supprimés pour un gain de place et de réactivité.[CR]Nouvelle option sous Miro pour recupérer via mon repo les ressources Genre et Texture[CR](resource.images.miro.nox.leia)</description>
+		<description lang="fr_CA">[I][COLOR FFFF9800]Version 7.0.47[/COLOR][/I][CR][COLOR FFFF9800]Script.Aeon.Miro.Nox version 1.0.14 obligatoire[/COLOR][CR]Correction du fichier DialogInfoVideo.xml concernant les drapeaux HDR.[CR]Retour en arrière provisoire concernant la gestion des acteurs.[CR]Dossiers texture et genre de Miro supprimés pour un gain de place et de réactivité.[CR]Nouvelle option sous Miro pour recupérer via mon repo les ressources Genre et Texture[CR](resource.images.miro.nox.leia)</description>
 		<description lang="he">Redux: עיצוב חדש היוצר מראה מודרני אך משמר את ההרגשה של Aeon הקלאסי.</description>
 		<description lang="hr">Redux: Potpuno preoblikovan moderan izgled, uz zadržani klasični Aeon osjećaj.</description>
 		<description lang="hu">Redux: Teljesen áttervezett modern kinézet, de megtartva a klasszikus Aeon érzetet.</description>
@@ -171,30 +171,12 @@
 		<disclaimer lang="en_GB">Mouse control is supported, althoug not recommended. It may not work correctly in all cases.</disclaimer>
 		<platform>all</platform>
 		<news>
-Version 7.0.46
-Correction des flags HDR10, HDR10+ ajout du Dolby Vision
-Modification du fichier textures.xbt pour être conforme avec les drapeaux ci-dessus.		
-		
-Version 7.0.45
-Script.Aeon.Miro.Nox version 1.0.14 obligatoire. Merci Telexx
-Ajout des drapeaux HDR10+ dans les différentes vues.
-Correction de mon code, suppression des variables inutiles.	
-		
-Version 7.0.44
-Correction lié aux drapeaux HDR en vue plein écran
-Refonte des drapeaux info film en noir et blanc pour coller avec ceux en couleur.
-
-Version 7.0.43
-Correction des vues pour afficher les logos HDR		
-		
-Version 7.0.42		
-Ajout des infos 4k en vue liste[CR]En cours les logos HDR mais il faudra renommer vos films en conséquence...	
-	
-Version 7.0.41
-Correction de la vue vitrine
-
-Version 7.0.39
-Allégement du fichier textures.xbt	
+Version 7.0.47
+Correction du fichier DialogInfoVideo.xml concernant les drapeaux HDR
+Retour en arrière provisoire concernant la gestion des acteurs.
+Dossiers texture et genre de Miro supprimés pour un gain de place et de réactivité.
+Nouvelle option sous Miro pour recupérer via mon repo les ressources Genre et Texture
+(resource.images.miro.nox.leia)	
 		</news>
 		<license>CC BY-NC-SA 4.0</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=183504</forum>
