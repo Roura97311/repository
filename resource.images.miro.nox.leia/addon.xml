@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="resource.images.miro.nox.leia" name="Boitiers Genre et textures Miro" version="0.0.17" provider-name="Roura97311">
+<addon id="resource.images.miro.nox.leia" name="Boitiers Genre et textures Miro" version="0.0.20" provider-name="Roura97311">
 	<extension point="kodi.resource.images" compile="true" type="skinicons" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
@@ -8,5 +8,9 @@
 		<summary lang="fr">Boitiers Genre et textures Miro</summary>
 		<description lang="fr">Boitiers Genre et textures Miro</description>
 		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
