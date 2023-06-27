@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.skin.info.service" name="Skin Info Service" version="1.0.10" provider-name="phil65, SiLVO">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0" />
+		<import addon="xbmc.addon" version="16.0.0"/>
+	</requires>
+	
+	
+	<extension library="default.py" point="xbmc.python.script">
+		<provides>executable</provides>
+	</extension>
+	<extension library="default.py" point="xbmc.python.pluginsource" />
+	
+	<extension point="xbmc.python.library" library="default.py" />
+	
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Script used by skins to show extended media info.</summary>
+		<description lang="en_GB">ATTENTION PAS COMPATIBLE AVEC MIRO INFERIEUR A 6.0.67</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+		<forum>-</forum>
+		<source>-</source>
+		<news>ATTENTION PAS COMPATIBLE AVEC MIRO INFERIEUR A 6.0.67</news>
+	</extension>
+</addon>

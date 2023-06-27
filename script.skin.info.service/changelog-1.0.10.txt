@@ -1,0 +1,11 @@
+v1.0.15
+ATTENTION PAS COMPATIBLE AVEC MIRO INFERIEUR A 6.0.67
+
+v1.0.5
+Leia compatibility (change IsEmpty and Substring)
+
+v1.0.1
+Krypton compatibility (change deprecated window names)
+
+v1.0.0
+Initial Release.
