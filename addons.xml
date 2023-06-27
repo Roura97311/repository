@@ -178,4 +178,18 @@ Ajout des icones studio en vue liste.</news>
 			<screenshot>resources/screenshot004.jpg</screenshot>
 		</assets>
 	</extension>
+</addon><addon id="resource.images.miro.nox.leia" name="Boitiers Genre et textures Miro" provider-name="Roura97311" version="0.0.26">
+	<extension compile="true" point="kodi.resource.images" type="skinicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="fr">Boitiers Genre et textures Miro</summary>
+		<description lang="fr">Boitiers Genre et textures Miro</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
 </addon></addons>
