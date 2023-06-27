@@ -1,0 +1,1 @@
+[I][COLOR FFFF9800]Version 7.0.50[/COLOR][/I][CR][COLOR FFFF9800]Script.Aeon.Miro.Nox version 1.0.20 obligatoire[/COLOR].[CR]Correction de la vue barrière pour avoir deux vues (Option Couche-> Mur/Liste).[CR]Ajout d'une option dans la vue vitrine pour ne pas afficher les boitiers Sagas.[CR]Option Arrière-Plan --> Affichage des boitiers Sagas.
