@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="repository.aeon.miro.nox" name="Aeon Miro Nox Repo Thanks Telexxingou ;-)" provider-name="Roura97311" version="1.0.8">
+<addons><addon id="repository.aeon.miro.nox" name="Aeon Miro Nox Repo Thanks Telexxingou ;-)" provider-name="Roura97311" version="1.0.9">
 		<requires>
 			<import addon="xbmc.addon" version="12.0.0" />
 		</requires>
 		<extension name="Aeon Miro Nox repository" point="xbmc.addon.repository">
 			<dir maxversion="18.9.0">
-			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Roura97311/repository/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/master</datadir>
+			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/main</datadir>
 			<hashes>false</hashes>
 			</dir>
 			<dir minversion="18.9.700">
-			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Roura97311/repository/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/master</datadir>
+			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/main</datadir>
 			<hashes>false</hashes>
 			</dir>					
 		</extension>
