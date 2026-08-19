@@ -1,0 +1,1 @@
+[I][COLOR FFFF9800]Version 8.0.36[/COLOR][/I][CR]Correction des erreurs XML et adaptation à Kodi Nexus.[CR]Renommage du skin : Aeon Miro nox Nexus
