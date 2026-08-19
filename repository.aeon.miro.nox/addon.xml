@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<addon id="repository.aeon.miro.nox" name="Aeon Miro Nox Repo Thanks Telexxingou ;-)" version="1.0.9" provider-name="Roura97311">
+	<addon id="repository.aeon.miro.nox" name="Aeon Miro Nox Repo Thanks Telexxingou ;-)" version="1.0.10" provider-name="Roura97311">
 		<requires>
 			<import addon="xbmc.addon" version="12.0.0"/>
 		</requires>
@@ -15,7 +15,13 @@
 			<checksum>https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/main</datadir>
 			<hashes>false</hashes>
-			</dir>					
+			</dir>
+			<dir minversion="20.0">
+			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/main</datadir>
+			<hashes>false</hashes>
+			</dir>							
 		</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary>Repository for Aeon Miro Nox</summary>
