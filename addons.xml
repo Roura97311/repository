@@ -4,19 +4,19 @@
 			<import addon="xbmc.addon" version="12.0.0" />
 		</requires>
 		<extension name="Aeon Miro Nox repository" point="xbmc.addon.repository">
-			<dir minversion="18.2">
+			<dir maxversion="18.9">
 			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/main</datadir>
 			<hashes>false</hashes>
 			</dir>
-			<dir minversion="19.2">
+			<dir maxversion="19.5">
 			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/main</datadir>
 			<hashes>false</hashes>
 			</dir>
-			<dir minversion="20.2">
+			<dir maxversion="20.5">
 			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/main</datadir>
