@@ -1,1 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
 
+    <addon
+        id="skin.aeon.miro.nox.matrix"
+        name="Aeon Miro Nox Matrix"
+        version="8.0.35"
+        provider-name="Roura97311">
+
+        <requires>
+            <import addon="xbmc.gui" version="5.15.0" />
+            <import addon="script.skin.helper.colorpicker" version="2.0.1" />
+            <import addon="script.skinshortcuts" version="1.0.10" />
+            <import addon="service.library.data.provider" version="0.0.7" />
+            <import addon="resource.images.studios.white" version="0.0.1" />
+            <import addon="resource.images.recordlabels.white" version="0.0.1" />
+            <import addon="script.grab.fanart" version="0.15.9" />
+            <import addon="script.globalsearch" version="9.0.7" />
+        </requires>
+
+        <extension point="xbmc.gui.skin" debugging="false">
+            <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+        </extension>
+
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Aeon Miro Nox Matrix</summary>
+            <summary lang="fr">Aeon Miro Nox Matrix</summary>
+
+            <description lang="fr">
+                Aeon Miro Nox pour Kodi Matrix 19.
+            </description>
+
+            <platform>all</platform>
+
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+        </extension>
+
+    </addon>
+
+</addons>
