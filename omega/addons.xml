@@ -1,1 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
 
+    <addon
+        id="skin.aeon.miro.nox.omega"
+        name="Aeon Miro Nox Omega"
+        version="8.0.40"
+        provider-name="Roura97311">
+
+        <requires>
+            <import addon="xbmc.gui" version="5.17.0" />
+            <import addon="script.skin.helper.colorpicker" version="2.0.1" />
+            <import addon="script.skinshortcuts" version="1.0.10" />
+            <import addon="service.library.data.provider" version="0.0.7" />
+            <import addon="resource.images.studios.white" version="0.0.1" />
+            <import addon="resource.images.recordlabels.white" version="0.0.1" />
+            <import addon="script.grab.fanart" version="0.15.9" />
+            <import addon="script.globalsearch" version="9.0.7" />
+        </requires>
+
+        <extension point="xbmc.gui.skin" debugging="false">
+            <res
+                width="1920"
+                height="1080"
+                aspect="16:9"
+                default="true"
+                folder="16x9" />
+        </extension>
+
+        <extension point="xbmc.addon.metadata">
+
+            <summary lang="fr">
+                Aeon Miro Nox 8.0.40
+            </summary>
+
+            <description lang="fr">
+                Version 8.0.40. Compatible avec Kodi Omega 21.
+            </description>
+
+            <platform>all</platform>
+
+            <news>
+                Version 8.0.40
+                Compatible avec Omega.
+                Modification des icones HDR.
+
+                Version 8.0.35
+                Modification des icones HDR.
+
+                Version 8.0.33
+                Correction du fichier Dialogselect.xml.
+
+                Version 8.0.32
+                Ajout des icones studio en vue liste.
+            </news>
+
+            <license>CC BY-NC-SA 4.0</license>
+
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+                <screenshot>resources/screenshot000.jpg</screenshot>
+                <screenshot>resources/screenshot001.jpg</screenshot>
+                <screenshot>resources/screenshot002.jpg</screenshot>
+                <screenshot>resources/screenshot003.jpg</screenshot>
+                <screenshot>resources/screenshot004.jpg</screenshot>
+            </assets>
+
+        </extension>
+
+    </addon>
+
+</addons>
