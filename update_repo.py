@@ -164,7 +164,7 @@ def fetch_addon_from_folder(raw_addon_location, target_folder):
     
         with zipfile.ZipFile(
                 archive_path, 'w', compression=zipfile.ZIP_DEFLATED) as archive:
-            for (root, dirs, files) in os.walk(addon_location.decode("utf-8")):
+            for (root, dirs, files) in os.walk(addon_location):
                 relative_root = os.path.join(
                     addon_metadata.id,
                     os.path.relpath(root, addon_location))
