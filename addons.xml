@@ -1,61 +1,81 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="repository.aeon.miro.nox" name="Aeon Miro Nox Repo Thanks Telexxingou ;-)" provider-name="Roura97311" version="1.0.20">
-		<requires>
-			<import addon="xbmc.addon" version="12.0.0" />
-		</requires>
-		<extension name="Aeon Miro Nox repository" point="xbmc.addon.repository">
-			<dir minversion="18.9">
-			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/main</datadir>
-			<hashes>false</hashes>
-			</dir>
-			<dir minversion="19.5">
-			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/main</datadir>
-			<hashes>false</hashes>
-			</dir>
-			<dir minversion="20.5">
-			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/main</datadir>
-			<hashes>false</hashes>
-			</dir>							
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>Repository for Aeon Miro Nox</summary>
-			<description>Main Repository for Aeon Miro Nox</description>
-			<platform>all</platform>
-			<assets>
+<addons><addon id="repository.aeon.miro.nox" name="Aeon Miro Nox Repo Thanks Telexxingou ;-)" version="1.0.21" provider-name="Roura97311">
+
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0" />
+    </requires>
+
+    <extension point="xbmc.addon.repository" name="Aeon Miro Nox repository">
+
+        
+        <dir minversion="19.0.0" maxversion="19.99.99">
+            <info compressed="false">
+                https://raw.githubusercontent.com/Roura97311/repository/main/matrix/addons.xml
+            </info>
+            <checksum>
+                https://raw.githubusercontent.com/Roura97311/repository/main/matrix/addons.xml.md5
+            </checksum>
+            <datadir zip="true">
+                https://raw.githubusercontent.com/Roura97311/repository/main/matrix/
+            </datadir>
+            <hashes>false</hashes>
+        </dir>
+
+        
+        <dir minversion="20.0.0" maxversion="20.99.99">
+            <info compressed="false">
+                https://raw.githubusercontent.com/Roura97311/repository/main/nexus/addons.xml
+            </info>
+            <checksum>
+                https://raw.githubusercontent.com/Roura97311/repository/main/nexus/addons.xml.md5
+            </checksum>
+            <datadir zip="true">
+                https://raw.githubusercontent.com/Roura97311/repository/main/nexus/
+            </datadir>
+            <hashes>false</hashes>
+        </dir>
+
+        
+        <dir minversion="21.0.0" maxversion="21.99.99">
+            <info compressed="false">
+                https://raw.githubusercontent.com/Roura97311/repository/main/omega/addons.xml
+            </info>
+            <checksum>
+                https://raw.githubusercontent.com/Roura97311/repository/main/omega/addons.xml.md5
+            </checksum>
+            <datadir zip="true">
+                https://raw.githubusercontent.com/Roura97311/repository/main/omega/
+            </datadir>
+            <hashes>false</hashes>
+        </dir>
+
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Repository for Aeon Miro Nox</summary>
+        <description>Main Repository for Aeon Miro Nox</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+
+</addon><addon id="resource.images.miro.nox.leia" name="Boitiers Genre et textures Miro" version="0.0.26" provider-name="Roura97311">
+	<extension point="kodi.resource.images" compile="true" type="skinicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="fr">Boitiers Genre et textures Miro</summary>
+		<description lang="fr">Boitiers Genre et textures Miro</description>
+		<platform>all</platform>
+		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		</extension>
-	</addon><addon id="script.skin.info.service" name="Skin Info Service" provider-name="phil65, SiLVO" version="1.0.10">
-	<requires>
-		<import addon="xbmc.python" version="2.24.0" />
-		<import addon="xbmc.addon" version="16.0.0" />
-	</requires>
-	
-	
-	<extension library="default.py" point="xbmc.python.script">
-		<provides>executable</provides>
 	</extension>
-	<extension library="default.py" point="xbmc.python.pluginsource" />
-	
-	<extension library="default.py" point="xbmc.python.library" />
-	
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Script used by skins to show extended media info.</summary>
-		<description lang="en_GB">ATTENTION PAS COMPATIBLE AVEC MIRO INFERIEUR A 6.0.67</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
-		<forum>-</forum>
-		<source>-</source>
-		<news>ATTENTION PAS COMPATIBLE AVEC MIRO INFERIEUR A 6.0.67</news>
-	</extension>
-</addon><addon id="script.aeon.miro.nox" name="Script.Aeon.Miro.Nox Leia/Matrix" provider-name="roura97311" version="1.0.20">
+</addon><addon id="script.aeon.miro.nox" name="Script.Aeon.Miro.Nox Leia/Matrix" version="1.0.20" provider-name="roura97311">
 	<requires>
 	  <dir maxversion="18.9.0">
 		<import addon="xbmc.python" version="2.24.0" />
@@ -68,10 +88,10 @@
 		
 	</requires>
     
-  <extension library="plugin.py" point="xbmc.python.script">
+  <extension point="xbmc.python.script" library="plugin.py">
 		<provides>executable</provides>
 	</extension>
-   <extension library="plugin.py" point="xbmc.python.pluginsource" />
+   <extension point="xbmc.python.pluginsource" library="plugin.py" />
    <extension library="service.py" point="xbmc.service" start="login" />	
 
 	
@@ -90,7 +110,30 @@
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon><addon id="skin.aeon.miro.nox.matrix" name="Aeon Miro Nox matrix" provider-name="Roura97311" version="8.0.35">
+</addon><addon id="script.skin.info.service" name="Skin Info Service" version="1.0.10" provider-name="phil65, SiLVO">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0" />
+		<import addon="xbmc.addon" version="16.0.0" />
+	</requires>
+	
+	
+	<extension library="default.py" point="xbmc.python.script">
+		<provides>executable</provides>
+	</extension>
+	<extension library="default.py" point="xbmc.python.pluginsource" />
+	
+	<extension point="xbmc.python.library" library="default.py" />
+	
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Script used by skins to show extended media info.</summary>
+		<description lang="en_GB">ATTENTION PAS COMPATIBLE AVEC MIRO INFERIEUR A 6.0.67</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+		<forum>-</forum>
+		<source>-</source>
+		<news>ATTENTION PAS COMPATIBLE AVEC MIRO INFERIEUR A 6.0.67</news>
+	</extension>
+</addon><addon id="skin.aeon.miro.nox.matrix" version="8.0.35" name="Aeon Miro Nox matrix" provider-name="Roura97311">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0" />
 		<import addon="script.skin.helper.colorpicker" version="2.0.1" />
@@ -101,8 +144,8 @@
 		<import addon="script.grab.fanart" version="0.15.9" />
 		<import addon="script.globalsearch" version="9.0.7" />
 	</requires>
-	<extension debugging="false" point="xbmc.gui.skin">
-		<res aspect="16:9" default="true" folder="16x9" height="1080" width="1920" />
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="de">Aeon Miro Nox 8.0.35</summary>
@@ -184,21 +227,7 @@ Ajout des icones studio en vue liste.</news>
 			<screenshot>resources/screenshot004.jpg</screenshot>
 		</assets>
 	</extension>
-</addon><addon id="resource.images.miro.nox.leia" name="Boitiers Genre et textures Miro" provider-name="Roura97311" version="0.0.26">
-	<extension compile="true" point="kodi.resource.images" type="skinicons" />
-	<requires>
-		<import addon="kodi.resource" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="fr">Boitiers Genre et textures Miro</summary>
-		<description lang="fr">Boitiers Genre et textures Miro</description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon><addon id="skin.aeon.miro.nox.nexus" name="Aeon Miro nox Nexus" provider-name="Aeon Miro nox Nexus" version="8.0.36">
+</addon><addon id="skin.aeon.miro.nox.nexus" version="8.0.36" name="Aeon Miro nox Nexus" provider-name="Aeon Miro nox Nexus">
 	<requires>
 		<import addon="xbmc.gui" version="5.16.0" />
 		<import addon="script.skin.helper.colorpicker" version="2.0.1" />
@@ -209,8 +238,8 @@ Ajout des icones studio en vue liste.</news>
 		<import addon="script.grab.fanart" version="0.15.9" />
 		<import addon="script.globalsearch" version="9.0.7" />
 	</requires>
-	<extension debugging="false" point="xbmc.gui.skin">
-		<res aspect="16:9" default="true" folder="16x9" height="1080" width="1920" />
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="de">Aeon Miro nox Nexus 8.0.36</summary>
@@ -295,7 +324,7 @@ Ajout des icones studio en vue liste.</news>
 			<screenshot>resources/screenshot004.jpg</screenshot>
 		</assets>
 	</extension>
-</addon><addon id="skin.aeon.miro.nox.omega" name="Aeon Miro Nox omega" provider-name="Roura97311" version="8.0.40">
+</addon><addon id="skin.aeon.miro.nox.omega" version="8.0.40" name="Aeon Miro Nox omega" provider-name="Roura97311">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
 		<import addon="script.skin.helper.colorpicker" version="2.0.1" />
@@ -306,8 +335,8 @@ Ajout des icones studio en vue liste.</news>
 		<import addon="script.grab.fanart" version="0.15.9" />
 		<import addon="script.globalsearch" version="9.0.7" />
 	</requires>
-	<extension debugging="false" point="xbmc.gui.skin">
-		<res aspect="16:9" default="true" folder="16x9" height="1080" width="1920" />
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="de">Aeon Miro Nox 8.0.40</summary>
