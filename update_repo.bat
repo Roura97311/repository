@@ -96,29 +96,19 @@ if errorlevel 1 (
 )
 
 REM ------------------------------------------------------------
-REM 6. Nettoyage des sorties generees
+REM 6. Preparation des sorties generees
 REM ------------------------------------------------------------
-echo [6/9] Nettoyage des anciens catalogues...
+echo [6/9] Preparation des catalogues sans suppression de l'historique...
 
-if exist "%REPO%\matrix" rmdir /s /q "%REPO%\matrix"
-if exist "%REPO%\nexus"  rmdir /s /q "%REPO%\nexus"
-if exist "%REPO%\omega"  rmdir /s /q "%REPO%\omega"
+REM IMPORTANT : ne jamais supprimer matrix/nexus/omega.
+REM Les anciennes versions des addons et des skins doivent rester
+REM disponibles dans le repository.
+if not exist "%REPO%\matrix" mkdir "%REPO%\matrix"
+if not exist "%REPO%\nexus"  mkdir "%REPO%\nexus"
+if not exist "%REPO%\omega"  mkdir "%REPO%\omega"
 
-mkdir "%REPO%\matrix"
-mkdir "%REPO%\nexus"
-mkdir "%REPO%\omega"
-
-REM Nettoyage des paquets generes a la racine.
-for %%A in (
-    repository.aeon.miro.nox
-    resource.images.miro.nox.leia
-    script.aeon.miro.nox
-    skin.aeon.miro.nox.matrix
-    skin.aeon.miro.nox.nexus
-    skin.aeon.miro.nox.omega
-) do (
-    if exist "%REPO%\%%A" rmdir /s /q "%REPO%\%%A"
-)
+REM Aucun paquet genere n'est supprime ici.
+REM update_repo.py ajoute la nouvelle version et conserve les anciennes.
 
 REM ------------------------------------------------------------
 REM 7. Generation des catalogues
@@ -177,29 +167,9 @@ if errorlevel 1 (
     exit /b 1
 )
 
-REM Catalogue racine de compatibilite historique.
-REM Il permet aux anciennes installations du repository
-REM de recuperer la nouvelle version du repository.aeon.miro.nox.
-echo.
-echo [7/9] Generation du catalogue racine historique...
-
-py -3 "%REPO%\update_repo.py" ^
-    --datadir "%REPO%" ^
-    --info "%REPO%\addons.xml" ^
-    --checksum "%REPO%\addons.xml.md5" ^
-    "%SRC%\repository.aeon.miro.nox" ^
-    "%SRC%\resource.images.miro.nox.leia" ^
-    "%SRC%\script.aeon.miro.nox" ^
-    "%SRC%\skin.aeon.miro.nox.matrix" ^
-    "%SRC%\skin.aeon.miro.nox.nexus" ^
-    "%SRC%\skin.aeon.miro.nox.omega"
-
-if errorlevel 1 (
-    echo ERREUR lors de la generation du catalogue racine.
-    pause
-    exit /b 1
-)
-
+REM Aucun catalogue racine n'est genere.
+REM Les catalogues officiels sont separes par version Kodi :
+REM Matrix, Nexus et Omega.
 REM ------------------------------------------------------------
 REM 8. Verification
 REM ------------------------------------------------------------
