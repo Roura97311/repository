@@ -168,6 +168,7 @@ py -3 "%REPO%\update_repo.py" ^
     --checksum "%REPO%\omega\addons.xml.md5" ^
     "%SRC%\repository.aeon.miro.nox" ^
     "%SRC%\resource.images.miro.nox.leia" ^
+    "%SRC%\script.aeon.miro.nox" ^
     "%SRC%\skin.aeon.miro.nox.omega"
 
 if errorlevel 1 (
