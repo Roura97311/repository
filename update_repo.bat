@@ -84,13 +84,13 @@ REM 5. Controle de la version du repository addon
 REM ------------------------------------------------------------
 echo [5/9] Verification repository.aeon.miro.nox...
 
-findstr /C:"1.0.21" "%SRC%\repository.aeon.miro.nox\addon.xml" >nul
+findstr /C:"1.0.22" "%SRC%\repository.aeon.miro.nox\addon.xml" >nul
 if errorlevel 1 (
     echo ATTENTION :
-    echo Le source repository.aeon.miro.nox n'est pas encore en version 1.0.21.
+    echo Le source repository.aeon.miro.nox n'est pas encore en version 1.0.22.
     echo Mets a jour :
     echo %SRC%\repository.aeon.miro.nox\addon.xml
-    echo avec la version 1.0.21 et les nouvelles balises Matrix/Nexus/Omega.
+    echo avec la version 1.0.22 et les nouvelles balises Matrix/Nexus/Omega.
     pause
     exit /b 1
 )
@@ -187,11 +187,6 @@ dir /b "%REPO%\nexus"
 echo.
 echo -------- OMEGA ---------
 dir /b "%REPO%\omega"
-
-echo.
-echo -------- RACINE --------
-if exist "%REPO%\addons.xml" echo addons.xml OK
-if exist "%REPO%\addons.xml.md5" echo addons.xml.md5 OK
 
 REM ------------------------------------------------------------
 REM 9. Commit + Push
