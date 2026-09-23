@@ -290,9 +290,13 @@ def get_addon_worker(addon_location, target_folder, temp_folder):
     return AddonWorker(thread, result_slot)
 
 def cleanup_dir(dirname):
-    #cleanup directory from disk
-    cmdargs = '/c rd /s /q %s' % dirname
-    subprocess.Popen( ('cmd', cmdargs )).wait()
+    # Clean up a directory safely with Python.
+    # The previous implementation called Windows "rd" even when
+    # the directory did not exist, which produced:
+    # "Le fichier spécifié est introuvable."
+    if not os.path.isdir(dirname):
+        return
+    shutil.rmtree(dirname, ignore_errors=False)
     while os.path.isdir(dirname):
         print("wait for folder deletion")
         time.sleep(1)
