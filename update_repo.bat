@@ -68,7 +68,6 @@ for %%A in (
     repository.aeon.miro.nox
     resource.images.miro.nox.leia
     script.aeon.miro.nox
-    script.skin.info.service
     skin.aeon.miro.nox.matrix
     skin.aeon.miro.nox.nexus
     skin.aeon.miro.nox.omega
@@ -114,7 +113,6 @@ for %%A in (
     repository.aeon.miro.nox
     resource.images.miro.nox.leia
     script.aeon.miro.nox
-    script.skin.info.service
     skin.aeon.miro.nox.matrix
     skin.aeon.miro.nox.nexus
     skin.aeon.miro.nox.omega
@@ -191,7 +189,6 @@ py -3 "%REPO%\update_repo.py" ^
     "%SRC%\repository.aeon.miro.nox" ^
     "%SRC%\resource.images.miro.nox.leia" ^
     "%SRC%\script.aeon.miro.nox" ^
-    "%SRC%\script.skin.info.service" ^
     "%SRC%\skin.aeon.miro.nox.matrix" ^
     "%SRC%\skin.aeon.miro.nox.nexus" ^
     "%SRC%\skin.aeon.miro.nox.omega"
