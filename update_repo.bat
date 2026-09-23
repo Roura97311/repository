@@ -66,7 +66,7 @@ echo [4/9] Verification des sources...
 
 for %%A in (
     repository.aeon.miro.nox
-    resource.images.miro.nox.leia
+    resource.images.miro.nox
     script.aeon.miro.nox
     skin.aeon.miro.nox.matrix
     skin.aeon.miro.nox.nexus
@@ -121,7 +121,7 @@ py -3 "%REPO%\update_repo.py" ^
     --info "%REPO%\matrix\addons.xml" ^
     --checksum "%REPO%\matrix\addons.xml.md5" ^
     "%SRC%\repository.aeon.miro.nox" ^
-    "%SRC%\resource.images.miro.nox.leia" ^
+    "%SRC%\resource.images.miro.nox" ^
     "%SRC%\script.aeon.miro.nox" ^
     "%SRC%\skin.aeon.miro.nox.matrix"
 
@@ -139,7 +139,7 @@ py -3 "%REPO%\update_repo.py" ^
     --info "%REPO%\nexus\addons.xml" ^
     --checksum "%REPO%\nexus\addons.xml.md5" ^
     "%SRC%\repository.aeon.miro.nox" ^
-    "%SRC%\resource.images.miro.nox.leia" ^
+    "%SRC%\resource.images.miro.nox" ^
     "%SRC%\script.aeon.miro.nox" ^
     "%SRC%\skin.aeon.miro.nox.nexus"
 
@@ -157,7 +157,7 @@ py -3 "%REPO%\update_repo.py" ^
     --info "%REPO%\omega\addons.xml" ^
     --checksum "%REPO%\omega\addons.xml.md5" ^
     "%SRC%\repository.aeon.miro.nox" ^
-    "%SRC%\resource.images.miro.nox.leia" ^
+    "%SRC%\resource.images.miro.nox" ^
     "%SRC%\script.aeon.miro.nox" ^
     "%SRC%\skin.aeon.miro.nox.omega"
 
