@@ -85,7 +85,7 @@ REM 5. Controle de la version du repository addon
 REM ------------------------------------------------------------
 echo [5/9] Verification repository.aeon.miro.nox...
 
-findstr /C:"version="1.0.21"" "%SRC%\repository.aeon.miro.nox\addon.xml" >nul
+findstr /C:"1.0.21" "%SRC%\repository.aeon.miro.nox\addon.xml" >nul
 if errorlevel 1 (
     echo ATTENTION :
     echo Le source repository.aeon.miro.nox n'est pas encore en version 1.0.21.
