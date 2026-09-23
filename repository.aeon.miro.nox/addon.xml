@@ -1,36 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<addon id="repository.aeon.miro.nox" name="Aeon Miro Nox Repo Thanks Telexxingou ;-)" version="1.0.20" provider-name="Roura97311">
-		<requires>
-			<import addon="xbmc.addon" version="12.0.0"/>
-		</requires>
-		<extension point="xbmc.addon.repository" name="Aeon Miro Nox repository">
-			<dir minversion="18.9">
-			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/main</datadir>
-			<hashes>false</hashes>
-			</dir>
-			<dir minversion="19.5">
-			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/main</datadir>
-			<hashes>false</hashes>
-			</dir>
-			<dir minversion="20.5">
-			<info compressed="true">https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Roura97311/repository/main/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Roura97311/repository/main</datadir>
-			<hashes>false</hashes>
-			</dir>							
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>Repository for Aeon Miro Nox</summary>
-			<description>Main Repository for Aeon Miro Nox</description>
-			<platform>all</platform>
-			<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-		</extension>
-	</addon>
+<addon id="repository.aeon.miro.nox"
+       name="Aeon Miro Nox Repo Thanks Telexxingou ;-)"
+       version="1.0.21"
+       provider-name="Roura97311">
 
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+
+    <extension point="xbmc.addon.repository" name="Aeon Miro Nox repository">
+
+        <!-- Kodi Matrix 19.x -->
+        <dir minversion="19.0.0" maxversion="19.99.99">
+            <info compressed="false">
+                https://raw.githubusercontent.com/Roura97311/repository/main/matrix/addons.xml
+            </info>
+            <checksum>
+                https://raw.githubusercontent.com/Roura97311/repository/main/matrix/addons.xml.md5
+            </checksum>
+            <datadir zip="true">
+                https://raw.githubusercontent.com/Roura97311/repository/main/matrix/
+            </datadir>
+            <hashes>false</hashes>
+        </dir>
+
+        <!-- Kodi Nexus 20.x -->
+        <dir minversion="20.0.0" maxversion="20.99.99">
+            <info compressed="false">
+                https://raw.githubusercontent.com/Roura97311/repository/main/nexus/addons.xml
+            </info>
+            <checksum>
+                https://raw.githubusercontent.com/Roura97311/repository/main/nexus/addons.xml.md5
+            </checksum>
+            <datadir zip="true">
+                https://raw.githubusercontent.com/Roura97311/repository/main/nexus/
+            </datadir>
+            <hashes>false</hashes>
+        </dir>
+
+        <!-- Kodi Omega 21.x -->
+        <dir minversion="21.0.0" maxversion="21.99.99">
+            <info compressed="false">
+                https://raw.githubusercontent.com/Roura97311/repository/main/omega/addons.xml
+            </info>
+            <checksum>
+                https://raw.githubusercontent.com/Roura97311/repository/main/omega/addons.xml.md5
+            </checksum>
+            <datadir zip="true">
+                https://raw.githubusercontent.com/Roura97311/repository/main/omega/
+            </datadir>
+            <hashes>false</hashes>
+        </dir>
+
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Repository for Aeon Miro Nox</summary>
+        <description>Main Repository for Aeon Miro Nox</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+
+</addon>
