@@ -89,10 +89,10 @@
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon><addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="2.1.1" provider-name="sualfred,marcelveldt">
+</addon><addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="2.1.2" provider-name="sualfred,marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
-		<import addon="script.module.pil" version="1.1.7" />
+		<import addon="script.module.pil" version="5.1.0" />
 	</requires>
 	<extension point="xbmc.python.library" library="default.py" />
 	<extension point="xbmc.addon.metadata">
