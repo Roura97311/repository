@@ -68,6 +68,7 @@ for %%A in (
     repository.aeon.miro.nox
     resource.images.miro.nox
     script.aeon.miro.nox
+	script.skin.helper.colorpicker
     skin.aeon.miro.nox.matrix
     skin.aeon.miro.nox.nexus
     skin.aeon.miro.nox.omega
@@ -140,6 +141,7 @@ py -3 "%REPO%\update_repo.py" ^
     --checksum "%REPO%\nexus\addons.xml.md5" ^
     "%SRC%\repository.aeon.miro.nox" ^
     "%SRC%\resource.images.miro.nox" ^
+	"%SRC%\script.skin.helper.colorpicker" ^
     "%SRC%\script.aeon.miro.nox" ^
     "%SRC%\skin.aeon.miro.nox.nexus"
 
@@ -158,6 +160,7 @@ py -3 "%REPO%\update_repo.py" ^
     --checksum "%REPO%\omega\addons.xml.md5" ^
     "%SRC%\repository.aeon.miro.nox" ^
     "%SRC%\resource.images.miro.nox" ^
+	"%SRC%\script.skin.helper.colorpicker" ^
     "%SRC%\script.aeon.miro.nox" ^
     "%SRC%\skin.aeon.miro.nox.omega"
 

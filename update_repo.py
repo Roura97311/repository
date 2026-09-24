@@ -52,6 +52,7 @@ ALLOWED_ADDONS = {
     'repository.aeon.miro.nox',
     'resource.images.miro.nox',
     'script.aeon.miro.nox',
+	'script.skin.helper.colorpicker',
     'skin.aeon.miro.nox.matrix',
     'skin.aeon.miro.nox.nexus',
     'skin.aeon.miro.nox.omega',
