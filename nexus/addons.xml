@@ -110,7 +110,7 @@
 </addon><addon id="skin.aeon.miro.nox.nexus" version="8.0.52" name="Aeon Miro nox Nexus" provider-name="Aeon Miro nox Nexus">
 	<requires>
 		<import addon="xbmc.gui" version="5.16.0" />
-		<import addon="script.skin.helper.colorpicker" version="2.1.1" />
+		<import addon="script.skin.helper.colorpicker" version="2.1.2" />
 		<import addon="script.skinshortcuts" version="1.0.10" />
 		<import addon="service.library.data.provider" version="0.0.7" />
 		<import addon="resource.images.studios.white" version="0.0.1" />
