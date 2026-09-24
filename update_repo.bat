@@ -177,7 +177,7 @@ REM ------------------------------------------------------------
 REM 8. Verification
 REM ------------------------------------------------------------
 echo.
-echo [8/9] Verification des fichiers...
+echo [8/9] Verification des fichiers et des MD5...
 
 echo.
 echo -------- MATRIX --------
@@ -190,6 +190,69 @@ dir /b "%REPO%\nexus"
 echo.
 echo -------- OMEGA ---------
 dir /b "%REPO%\omega"
+
+set "MD5_MATRIX="
+set "MD5_NEXUS="
+set "MD5_OMEGA="
+echo.
+echo Verification MD5 MATRIX...
+
+for /f "skip=1 tokens=1" %%A in ('certutil -hashfile "%REPO%\matrix\addons.xml" MD5') do (
+    if not defined MD5_MATRIX set "MD5_MATRIX=%%A"
+)
+
+set /p MD5_MATRIX_REPO=<"%REPO%\matrix\addons.xml.md5"
+
+if /I "%MD5_MATRIX%"=="%MD5_MATRIX_REPO%" (
+    echo MATRIX : MD5 OK
+) else (
+    echo MATRIX : ERREUR MD5
+    echo   Calcule : %MD5_MATRIX%
+    echo   Fichier : %MD5_MATRIX_REPO%
+    pause
+    exit /b 1
+)
+
+echo.
+echo Verification MD5 NEXUS...
+
+for /f "skip=1 tokens=1" %%A in ('certutil -hashfile "%REPO%\nexus\addons.xml" MD5') do (
+    if not defined MD5_NEXUS set "MD5_NEXUS=%%A"
+)
+
+set /p MD5_NEXUS_REPO=<"%REPO%\nexus\addons.xml.md5"
+
+if /I "%MD5_NEXUS%"=="%MD5_NEXUS_REPO%" (
+    echo NEXUS : MD5 OK
+) else (
+    echo NEXUS : ERREUR MD5
+    echo   Calcule : %MD5_NEXUS%
+    echo   Fichier : %MD5_NEXUS_REPO%
+    pause
+    exit /b 1
+)
+
+echo.
+echo Verification MD5 OMEGA...
+
+for /f "skip=1 tokens=1" %%A in ('certutil -hashfile "%REPO%\omega\addons.xml" MD5') do (
+    if not defined MD5_OMEGA set "MD5_OMEGA=%%A"
+)
+
+set /p MD5_OMEGA_REPO=<"%REPO%\omega\addons.xml.md5"
+
+if /I "%MD5_OMEGA%"=="%MD5_OMEGA_REPO%" (
+    echo OMEGA : MD5 OK
+) else (
+    echo OMEGA : ERREUR MD5
+    echo   Calcule : %MD5_OMEGA%
+    echo   Fichier : %MD5_OMEGA_REPO%
+    pause
+    exit /b 1
+)
+
+echo.
+echo Tous les MD5 sont corrects.
 
 REM ------------------------------------------------------------
 REM 9. Commit + Push
