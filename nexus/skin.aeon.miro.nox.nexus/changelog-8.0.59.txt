@@ -1,0 +1,1 @@
+[I][COLOR FFFF9800]Version 8.0.59[/COLOR][/I][CR]Affichage de la source NAS pour le dossier série vue vitrine.[CR]Sélection de la source dans les paramêtres Miro[CR]Modification du fichier Textures.xbt

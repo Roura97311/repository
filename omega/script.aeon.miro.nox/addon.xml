@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<addon id="script.aeon.miro.nox" name="Script.Aeon.Miro.Nox Leia/Matrix" version="1.0.20" provider-name="roura97311">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<addon id="script.aeon.miro.nox" name="Script.Aeon.Miro.Nox Leia/Matrix" version="1.0.27" provider-name="roura97311">
 	<requires>
 	  <dir maxversion="18.9.0">
 		<import addon="xbmc.python" version="2.24.0"/>
@@ -22,7 +22,7 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">script.aeonmironox_11/08/2021</summary>
         <summary lang="en">tools for AeonMiroNox skin</summary>
-        <description>Ajout de fonctions au Skin Aeon.Miro.Nox[CR][COLOR FFFF9800]VERSION Leia/Matrix 1.0.20[/COLOR][CR]Skin.Info.Service.plus nécessaire (Sous Matrix)</description>
+        <description>Ajout de fonctions au Skin Aeon.Miro.Nox[CR][COLOR FFFF9800]VERSION Nexus 1.0.27 (NAS paths normalises)[/COLOR][CR]Skin.Info.Service.plus nécessaire (Sous Matrix)</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GPL v2.0</license>
